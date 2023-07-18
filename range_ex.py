@@ -35,3 +35,19 @@ def range_4():
     return rev1
 
 print(range_4())
+
+# result: [10, 9, 8, 7, 6, 5, 4, 3, 2]
+
+def range_5():
+    neg1 = list(range(-10, 5))
+    return neg1
+
+print(range_5())
+
+# result: [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4]
+
+def range_6():
+    neg2 = list(range(-1, -25, -1))
+    return neg2
+
+print(range_6())
