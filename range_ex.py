@@ -29,3 +29,9 @@ print(range_3())
 
 # result: [1, 4, 7]
 
+# Reversing the range in range()
+def range_4():
+    rev1 = list(range(10,1,-1))
+    return rev1
+
+print(range_4())
